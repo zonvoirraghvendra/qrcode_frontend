@@ -1,0 +1,9 @@
+.header-section {background:#fff;padding: 15px;height: 50px;display: flex;justify-content: space-between;line-height: 50px;}
+span.title {color: #2f3a3e;font-family: Quicksand;font-size: 16px;font-weight: 700;letter-spacing: 0.07px;}
+span.back-arrow img {width: 18px;line-height: 75px;margin-top: 16px;}
+.hide{color:#fff}
+.container{padding: 15px;}
+.container h2{color: #9b9a9b;font-family: Quicksand;font-size: 19px;font-weight: 700;letter-spacing: 0.08px;}
+.container p{color: #2f3a3e;font-family: Quicksand;font-size: 14px;font-weight: 700;letter-spacing: 0.06px;}
+.container h1{color: #0672d0;font-family: Quicksand;font-size: 50px;font-weight: 700;letter-spacing: 0.22px;text-align: center;}
+.container h4{color: #0672d0;font-family: Quicksand;font-size: 18px;font-weight: 700;letter-spacing: 0.08px;text-align: center;}

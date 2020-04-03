@@ -1,0 +1,20 @@
+.header-section {background:#fff;padding: 15px;height: 50px;display: flex;justify-content: space-between;line-height: 50px;}
+span.title {color: #2f3a3e;font-family: Quicksand;font-size: 16px;font-weight: 700;letter-spacing: 0.07px;}
+span.back-arrow img {width: 18px;line-height: 75px;margin-top: 16px;}
+.hide{color:#fff}
+.scanner-sec {text-align: center;padding-top: 200px;}
+.scanner-sec p{text-align: center;margin-top: 0px;}
+.scanner-sec button{width: 60%;height: 37px; background: #e4c168;border: 0px;border-radius: 4px;color: white;font-size: 16px;font-weight: 600;color:#0c4077}
+.send, .recieve{position: relative;width: 60px;}
+.recieve img:nth-of-type(1){border: 2px solid #0a1e3d;border-radius: 50%;height: 30px;width: 30px;margin: 0 auto;display: block;}
+.recieve img:nth-of-type(2){position:absolute;bottom: 36px;left: 18px;}
+.send img:nth-of-type(1){border: 2px solid #0a1e3d;border-radius: 50%;height: 30px;width: 30px;margin: 0 auto;display: block;}
+.recieve, .send, .balance p{ color: #031e3d;font-family: Quicksand;font-size: 14px;font-weight: 700;letter-spacing: 0.06px;text-align: center;}
+.send img:nth-of-type(2){ position:absolute;top: -10px;left: 19px;}
+.transaction{display: flex;justify-content: space-between;padding: 15px;padding-top: 60px;}
+.action{position: relative;display: flex;}
+.balance{position: relative;}
+.balance p{margin:0px}
+.circle img {height: 30px;width: 30px;position: absolute;top: 18px;left: 10px;}
+.circle p {color: #031e3d;font-family: Luminari;font-size: 14px;font-weight: 400;letter-spacing: 0.28px;top: 7px;left: 13px;position: absolute;}
+.circle{border: 2px solid #0a1e3d; border-radius: 50%;height: 46px;width: 45px; background: #e1b54c;}

@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "DIN-Condensed";
+  src: url("/assets/fonts/D-DINCondensed.otf");
+  src: url("/assets/fonts/D-DINCondensed.wof") format("woff"),
+  url("/assets/fonts/D-DINCondensed.ttf") format("opentype"),
+  }
+html, body { height: 100%;    margin: 0;
+  padding: 0px;}
+body { margin: 0; font-family: 'Quicksand', sans-serif;background-color: #f4f4f4;max-width: 697px;margin: 0 auto;}
+.header-sec {padding: 10px 15px;background: #e4c168;}
+.logo span{color: #0c4077;font-family: "DIN-Condensed";font-size: 27px;font-weight: 700;letter-spacing: 2px;}
+.input-btn{width: 158px;height: 30px; border-radius: 13px;background-color: #ffffff;display: flex;justify-content: space-around;}
+.input-btn span{color: #0c4077;font-family: "Stem - Medium";font-size: 13px;font-weight: 500;letter-spacing: 0.2px;line-height: 28px;}
+.secondary-header p{color: #0c4077;font-family: "Stem - Medium";font-size: 18px;font-weight: 500;line-height: 22px;}
+.main-header {display: flex;justify-content: space-between;padding: 5px 0; align-items: center;padding-top: 18px;}
+.secondary-header {margin-top: -16px;}
+.footer-sec {display: flex; align-items: center;justify-content: space-between;padding: 10px 0;}

@@ -1,0 +1,8 @@
+.header-section {background:#fff;padding: 15px;height: 50px;display: flex;justify-content: space-between;line-height: 50px;}
+span.title {color: #2f3a3e;font-family: Quicksand;font-size: 16px;font-weight: 700;letter-spacing: 0.07px;}
+span.back-arrow img {width: 18px;line-height: 75px;margin-top: 16px;}
+.hide{color:#fff}
+.mat-form-field {display: block;position: relative;text-align: left;width: 60%;margin: 0 auto;}
+.form-group {padding-top: 80px;}
+input#mat-input-0 {color: #2f3a3e;font-family: Quicksand;font-size: 33px;font-weight: 400;letter-spacing: 0.14px;text-transform: uppercase;}
+.contnue button{margin: 0 auto;display: block; border: 0px;font-size: 18px;}

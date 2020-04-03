@@ -1,0 +1,48 @@
+<header>
+    <div class="header-section">
+        <span class="back-arrow"(click)="goback()">
+            <img src="assets/images/back.png">
+        </span>
+        <span class="title">
+            Contact
+        </span>
+        <span class="hide"> menu
+        </span>
+    </div>
+</header>
+<div class="container">
+    <div class="search-sec">
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="Sponsor,club,email,mobile" (keyup)="searchData($event)">
+    </div>
+    <h2>
+        Recent Contact:
+    </h2>
+    <h2 *ngIf="allContactsList.length == 0" class="not-found">
+       Contacts not found
+    </h2>
+    <mat-grid-list cols="4" rowHeight="90px" *ngFor="let contact of allContactsList">
+        <mat-grid-tile colspan="4">
+            <div class="list-item border-top">
+                <img class="list-image" mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                    alt="user image">
+                <div class="text-content">
+                    <p>{{contact.userss?.contact_no}}</p>
+                    <span>{{contact.userss?.firstName}} {{contact.userss?.lastName}}</span><br>
+                </div>
+                <div class="qrlinks" matRipple (click)="linkUrl(contact.contact_id)">
+                    <img mat-card-image src="assets/images/link.png" alt="link">
+                    <p>Link</p>
+                </div>
+                <div class="qrlinks" matRipple (click)="qrUrl(contact.contact_id)">
+                    <img mat-card-image src="assets/images/qrlink.png" alt="Qr">
+                    <p>Qr</p>
+                </div>
+            </div>
+        </mat-grid-tile>
+    </mat-grid-list>
+    <!-- <p (click)="goTransaction()">Transaction</p> -->
+</div>
+<footer>
+
+</footer>

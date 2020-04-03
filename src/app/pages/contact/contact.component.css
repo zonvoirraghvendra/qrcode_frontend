@@ -1,0 +1,19 @@
+.header-section {background:#fff;padding: 15px;height: 50px;display: flex;justify-content: space-between;line-height: 50px;}
+span.title {color: #0c4077;font-family: "Stem - Medium";font-size: 21px;font-weight: 500;letter-spacing: 0.32px;line-height: 46px;}
+span.back-arrow img {width: 18px;line-height: 75px;margin-top: 16px;}
+.hide{color:#fff}
+.search-sec input{border-radius: 28px;border: 1px solid #2f3a3e;background-color: #ffffff;width: 89%;height: 55px;color: #9b9a9b;font-family: Quicksand;font-size: 13px;font-weight: 400;letter-spacing: 0.06px;padding-left: 35px;}
+h2 { color: #9b9a9b; font-family: Quicksand;font-size: 16px;font-weight: 700;letter-spacing: 0.08px;padding-left: 15px;}
+.container{padding: 0px;}
+.list-item{display: flex;justify-content: space-between;align-items: center;padding: 15px;background: #fff;border-bottom: 1px solid #cec6c6;width: 100%;height: 58px;font-size: 16px;color: #001830;font-weight: 600;}
+.border-top{border-top: 1px solid #cec6c6;}
+.list-image{ width: 60px;height: 60px;border-radius: 50%;border: 1px solid #ff9900;}
+.text-content{padding-left: 10px;width: 100%;}
+.text-content p {color: #2f3a3e;font-family: "Stem - Medium";font-size: 16px;font-weight: 500;letter-spacing: 0.24px;line-height: 22px; margin-bottom: 0;margin-top: 2px;}
+.text-content span{    color: #6f6f6e;font-family: Arial;font-size: 14px;font-weight: 400;}
+.qrlinks{width:52px}
+.qrlinks p{color: #0672d0;font-family: "Stem - Medium";font-size: 12px;font-weight: 500;letter-spacing: 0.14px;line-height: 20px;text-transform: uppercase;margin: 0px;text-align: center;}
+.search-sec {position: relative;padding: 15px;}
+.search-sec i{color: #dfdfdf;position: absolute;top: 34px;left: 25px;font-size: 20px;}
+.not-found{text-align: center;color: #e57433;font-size: 20px;}
+

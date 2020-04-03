@@ -1,0 +1,31 @@
+<header>
+    <div class="header-section">
+        <span class="back-arrow" (click)="goback()">
+            <img src="assets/images/back.png">
+        </span>
+        <span class="title">
+            Transfers with QR Code
+        </span>
+        <span class="hide"> menu
+        </span>
+    </div>
+</header>
+<div class="container">
+    <p class="tansection"><span>*1</span> Jelly of transaction fee + the request of <span>*6</span> will be reduce of
+        your balance</p>
+    <h2>
+        Transaction
+    </h2>
+    <div class="scanner-sec">
+        <p class="tansection"><span>*6</span> Jellies to <span>Dos Bandidos Restaurant</span></p>
+        <ngx-qrcode *ngIf="display" qrc-version = "8" id="qrCodeImage" qrc-class = "test-class" [qrc-element-type]="elementType" [qrc-value]="value">
+        </ngx-qrcode>
+        <p class="code">{{userId}}</p>
+    </div>
+    <p class="cancel">Cancel transfer</p>
+
+    <!-- <p class="cancel" (click)="gotocontact()">Contact</p> -->
+</div>
+<footer>
+
+</footer>

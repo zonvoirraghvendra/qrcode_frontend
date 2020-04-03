@@ -1,0 +1,25 @@
+<header>
+    <div class="header-section">
+        <span class="back-arrow" (click)="goback()">
+            <img src="assets/images/back.png">
+        </span>
+        <span class="title">
+            Transaction amount
+        </span>
+        <span class="hide"> menu
+        </span>
+    </div>
+</header>
+<div class="container">
+        <div class="form-group">
+            <mat-form-field class="example-full-width">
+                <input matInput type="text"  placeholder="Add Amount"  [(ngModel)]="payAmount">
+            </mat-form-field>
+            <div class="contnue">
+             <button mat-button matRipple color="primary" (click)="continue(payAmount)">Continue</button>
+            </div>
+        </div>
+</div>
+<footer>
+
+</footer>

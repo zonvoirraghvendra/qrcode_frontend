@@ -1,0 +1,39 @@
+<header>
+    <div class="header-section">
+			 <span class="hide"> back
+			</span>
+        <span class="title">
+            Home
+        </span>
+        <span class="hide"> menu
+        </span>
+    </div>
+  </header>
+<div class="container">
+    <div class="scanner-sec">
+        <button (click)="gotoScanner()" matRipple type="button" class="btn btn-primary">Scan Qrcode</button>
+    </div>
+    <div class="transaction">
+        <div class="action">
+            <div class="recieve"(click)="request('request')">
+                <img src="assets/images/activestatus.png">
+                <img src="assets/images/arrow-down.png">
+                <p>Request</p>
+            </div>
+            <div class="send" (click)="send('send')">
+                <img src="assets/images/activestatus.png">
+                <img src="assets/images/arrow-up.png">
+                <p>Send</p>
+            </div>
+        </div>
+        <div class=balance>
+            <div class="circle">
+                <p>$21</p>
+                <!-- <p>${{ balance | sum:'amount' }} </p> -->
+                <img src="assets/images/activestatus.png">
+            </div>
+            <p>Balance</p>
+        </div>
+    </div>
+    <!-- <p (click)="gotomount()">amount</p> -->
+</div>
